@@ -1,6 +1,13 @@
 .game-info {
   display: none;
 }
+.banner-btn-list {
+  display: none;
+}
+
+.users-rating-info {
+  display: none;
+}
 
 .banner {
   display: flex;
@@ -41,6 +48,58 @@
   color: var(--white-color);
 }
 
+/* Menu */
+
+.more-info-menu {
+  margin-top: 15px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: last baseline;
+
+  height: 26px;
+}
+
+.more-info-list {
+  margin-top: 13px;
+}
+
+.more-info-menu h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--dark-grey);
+}
+
+.more-info-item {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background: var(--gradient-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  padding-bottom: 27px;
+}
+
+.current-link {
+  position: relative;
+}
+.current-link:after {
+  content: '';
+  position: absolute;
+  left: 47%;
+  bottom: 38%;
+  border-radius: 40px;
+  width: 23px;
+  height: 5px;
+  background: var(--gradient-color);
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -68,6 +127,25 @@
       url(../images/banner/div.png), url(../images/banner/banner_bg_tabl.jpg);
   }
 
+  .more-info-list .more-info-item:first-child {
+    display: none;
+  }
+
+  .more-info-list .more-info-item:nth-child(2) {
+    position: relative;
+  }
+
+  .more-info-list .more-info-item:nth-child(2):after {
+    content: '';
+    position: absolute;
+    left: 48%;
+    bottom: 38%;
+    border-radius: 40px;
+    width: 23px;
+    height: 5px;
+    background: var(gradient-color);
+  }
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -93,6 +171,14 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .more-info-menu {
+    display: none;
+  }
+
+  .banner-section {
+    margin-bottom: 82px;
+  }
+
   .game-info {
     display: block;
     box-sizing: border-box;
@@ -116,8 +202,9 @@
   }
 
   .banner {
-    /* padding: 0px 347px 70px 347px; */
-    /* max-width: 1170px; */
+    justify-content: start;
+    padding-left: 56px;
+    gap: 25px;
     height: 190px;
     position: relative;
     top: 0;
@@ -148,6 +235,101 @@
     line-height: 162%;
     text-align: center;
     color: var(--dark-grey);
+  }
+
+  .info-item a:visited {
+    color: var(--dark-grey);
+  }
+  .banner-btn-list {
+    margin-top: 16px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .banner-button {
+    border: 1px solid var(--white-color);
+    background-color: none;
+    border-radius: 17px;
+    padding: 5px 16px 5px 13px;
+    height: 28px;
+
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+
+    align-items: center;
+  }
+
+  .banner-button:hover,
+  .banner-button:focus {
+    border-color: #0dd0ba;
+    color: #0dd0ba;
+    transition: var(--transition-change);
+  }
+
+  .banner-button:hover .banner-icon,
+  .banner-button:focus .banner-icon {
+    border-color: #0dd0ba;
+    fill: #0dd0ba;
+    transition: var(--transition-change);
+  }
+
+  .banner-button-download {
+    border-radius: 17px;
+    padding: 5px 14px 5px 13px;
+    height: 28px;
+    background: var(--gradient-color);
+
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+  }
+
+  .banner-button-download:hover,
+  .banner-button-download:focus {
+    background: var(--white-color);
+    color: #2a86e5;
+    transition: var(--transition-change);
+  }
+
+  .banner-button-download:hover .icon-download,
+  .banner-button-download:focus .icon-download {
+    fill: #2a86e5;
+    transition: var(--transition-change);
+  }
+
+  .users-rating-info {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+
+    position: absolute;
+    top: 60px;
+    right: 60px;
+  }
+
+  .users-info {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--white-color);
+  }
+
+  .info-title {
+    font-weight: 800;
+    font-size: 24px;
+  }
+
+  .users-info p:last-child {
+    font-weight: 700;
+  }
+
+  .user-mark {
+    font-size: 20px;
+    color: #f9b936;
   }
 
   @media (min-device-pixel-ratio: 2),
