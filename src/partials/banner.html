@@ -1,0 +1,54 @@
+<section class="container banner-container">
+  <div class="game-info">
+    <ul class="info-list">
+      <li class="info-item">Lorem Ipsum is simply dummy</li>
+      <li class="info-item vertical-line"></li>
+      <li class="info-item">item</li>
+      <li class="info-item vertical-line"></li>
+      <li class="info-item">item</li>
+      <li class="info-item vertical-line"></li>
+      <li class="info-item">item</li>
+      <li class="info-item vertical-line"></li>
+      <li class="info-item">item</li>
+    </ul>
+
+    <img
+      class="info-note"
+      srcset="
+        ./images/banner/info-note.jpg,
+        ./images/banner/info-note_2x.jpg 2x
+      "
+      src="./images/banner/info-note.jpg"
+      alt="Info note"
+      width="269"
+      height="35"
+    />
+  </div>
+  <div class="banner">
+    <picture>
+      <source
+        srcset="
+          ./images/banner/banner_img_tab.jpg    1x,
+          ./images/banner/banner_img_tab_2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./images/banner/banner_img_phone.jpg    1x,
+          ./images/banner/banner_img_phone_2x.jpg 2x
+        "
+        media="(min-width: 320px)"
+      />
+      <img
+        class="banner-img"
+        src="./images/banner/banner_img_phone.jpg"
+        alt="Game photo"
+        width="89"
+      />
+    </picture>
+    <div>
+      <h1 class="banner-title">Lorem Ipsum is simply dummy</h1>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,58 @@
+:root {
+  --white-color: #fff;
+  --light-blue: #2a86e5;
+  --dark-blue: #183a5d;
+  --light-grey: #757575;
+  --dark-grey: #707070;
+  --light-green: #0dd0ba;
+
+  --black-color: #111;
+}
+
+/*меняются->*/
+
+.light {
+  /*тема светлая-:>*/
+  /*1*/
+  --rep-black: #111;
+  /*2*/
+  --rep-white: #fff;
+  /*3*/
+  --rep-color-background: #f6f6f6;
+  /*4*/
+  --rep-category-text: rgba(17, 17, 17, 0.6);
+  --rep-category-scrol: #e0e0e0;
+  /*5*/
+  --rep-category-text-activ: #4f2ee8;
+  /*6*/
+  --rep-shopping-list-empty: rgba(0, 0, 0, 0.6);
+  /*7*/
+  --rep-pop-up-background: #fff;
+  /*8*/
+  --rep-pop-up-text-activated-batton: rgba(17, 17, 17, 0.5);
+  --rep-pop-up-amazon: grayscale(100%);
+  --rep-x-focus: #4f2ee8;
+}
+
+.dark {
+  /*тема тёмная-:>*/
+  /*1*/
+  --rep-black: #fff;
+  /*2*/
+  --rep-white: #111;
+  /*3*/
+  --rep-color-background: #202024;
+  /*4*/
+  --rep-category-text: rgba(255, 255, 255, 0.6);
+  --rep-category-scrol: rgba(17, 17, 17, 0.6);
+  /*5*/
+  --rep-category-text-activ: #eac645;
+  /*6*/
+  --rep-shopping-list-empty: rgba(255, 255, 255, 0.6);
+  /*7*/
+  --rep-pop-up-background: #202024;
+  /*8*/
+  --rep-pop-up-text-activated-batton: rgba(255, 255, 255, 0.5);
+  --rep-pop-up-amazon: brightness(0) invert(1);
+  --rep-x-focus: #eac645;
+}

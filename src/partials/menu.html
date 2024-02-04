@@ -1,0 +1,125 @@
+<div class="container menu-container">
+  <section class="logo-and-burger">
+    <a href="./index.html" class="logo">
+      <img
+        srcset="images/logo.png, images/logo_2x.png 2x"
+        src="images/logo.png"
+        alt="Logo"
+        width="134"
+        height="18"
+      />
+    </a>
+
+    <!--FOR DESKTOP -->
+    <ul class="menu-list-desktop">
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+      <li class="menu-item-desk">Item</li>
+    </ul>
+
+    <form class="search-form-desktop">
+      <input type="text" placeholder="Search for..." name="search" />
+      <button class="search-btn" type="submit">
+        <svg class="search-icon" width="19" height="20">
+          <use href="./images/icons.svg#icon-search"></use>
+        </svg>
+      </button>
+    </form>
+
+    <!-- Btn menu FOR PHONE/TABLET-->
+    <button id="openBurger" class="menu-burger active">
+      <svg class="burger-icon" width="27" height="30">
+        <use href="./images/icons.svg#icon-burger"></use>
+      </svg></button
+    ><button id="closeBurger" class="menu-close">
+      <svg class="burger-icon" width="27" height="30">
+        <use href="./images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+  </section>
+
+  <!-- Modal view -->
+  <div class="modal-view">
+    <div id="overlay" class="burger-view-menu overlay">
+      <div class="overlay-content">
+        <form class="search-form">
+          <input type="text" placeholder="Search for..." name="search" />
+          <button class="search-btn" type="submit">
+            <svg class="search-icon" width="19" height="20">
+              <use href="./images/icons.svg#icon-search"></use>
+            </svg>
+          </button>
+        </form>
+        <ul class="menu-list">
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+          <li class="menu-item">Item</li>
+        </ul>
+        <ul class="nav-burger-list">
+          <li class="nav-burger-item">
+            <a href="#" class="burger-nav-link">
+              <svg
+                class="nav-burger-icon"
+                width="12.5"
+                height="13"
+                fill="#707070"
+              >
+                <use href="images/icons.svg#icon-phone"></use>
+              </svg>
+              Menu item 1
+            </a>
+          </li>
+          <li class="nav-burger-item">
+            <a href="#" class="burger-nav-link">
+              <svg
+                class="nav-burger-icon"
+                width="16.5"
+                height="14"
+                fill="#707070"
+              >
+                <use href="images/icons.svg#icon-pot"></use>
+              </svg>
+              Menu item 2
+            </a>
+          </li>
+          <li class="nav-burger-item">
+            <a href="#" class="burger-nav-link">
+              <svg
+                class="nav-burger-icon"
+                width="16.5"
+                height="14"
+                fill="#707070"
+              >
+                <use href="images/icons.svg#icon-android"></use>
+              </svg>
+              Menu item 3
+            </a>
+          </li>
+          <li class="nav-burger-item">
+            <a href="#" class="burger-nav-link">
+              <svg
+                class="nav-burger-icon"
+                width="16.5"
+                height="14"
+                fill="#707070"
+              >
+                <use href="images/icons.svg#icon-apple"></use>
+              </svg>
+              Menu item 4
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

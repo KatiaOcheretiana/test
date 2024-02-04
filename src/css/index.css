@@ -1,0 +1,36 @@
+@import url(./header.css);
+@import url(./reset.css);
+@import url(./root.css);
+@import url(./menu.css);
+@import url(./banner.css);
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body.dark {
+  background-color: #202434;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0 auto;
+    min-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    margin: 0 auto;
+    width: 1170px;
+  }
+}
