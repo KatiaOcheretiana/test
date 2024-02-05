@@ -77,5 +77,3 @@ const createMarkup = data => {
 const markup = createMarkup(articlesData);
 
 articlesList.innerHTML = markup;
-
-// articlesList.insertAdjacentHTML('beforeend', markup);

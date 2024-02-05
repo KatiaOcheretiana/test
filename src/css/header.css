@@ -13,11 +13,19 @@ header {
 .nav {
   display: none;
 }
-
-.social-item > a {
+.soc-link {
+  width: 29px;
+  height: 29px;
+  display: flex;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+}
+.social-item {
+  width: 29px;
+  height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .soc-and-theme {
@@ -129,6 +137,11 @@ header {
 
   .nav-list {
     width: 504.3px;
+  }
+
+  .soc-link:hover svg {
+    scale: 1.6;
+    transition: var(--transition-change);
   }
 
   .nav-item:hover .had-nav-link,

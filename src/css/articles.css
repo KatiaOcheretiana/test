@@ -154,6 +154,7 @@
 
   .article-img {
     width: 347px;
+    height: 171px;
     object-fit: fill;
   }
 
@@ -168,11 +169,12 @@
   }
   .add-content {
     max-width: 347px;
+    height: 50px;
   }
 
   .article-item {
     max-width: 387px;
-    height: 279px;
+    /* height: 279px; */
   }
 
   .article-item:hover,

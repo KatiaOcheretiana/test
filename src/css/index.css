@@ -4,6 +4,7 @@
 @import url(./menu.css);
 @import url(./banner.css);
 @import url(./articles.css);
+@import url(./footer.css);
 
 body {
   font-family: 'Red Hat Display', sans-serif;
