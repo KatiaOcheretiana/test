@@ -83,7 +83,7 @@ const markup = data => {
 const categoryItems = markup(categoryItemsData);
 const playBetterItems = markup(playBetterItemsData);
 const usefulLinks = markup(usefulLinksData);
-gidesTipsItems = markup(gidesTopsItemsData);
+const gidesTipsItems = markup(gidesTopsItemsData);
 
 categoryList.innerHTML = categoryItems;
 playBetterList.innerHTML = playBetterItems;
