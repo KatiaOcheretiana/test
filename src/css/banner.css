@@ -69,7 +69,7 @@
 .more-info-menu h2 {
   font-weight: 500;
   font-size: 18px;
-  color: var(--dark-grey);
+  color: var(--more-info);
 }
 
 .more-info-item {
@@ -98,6 +98,14 @@
   width: 23px;
   height: 5px;
   background: var(--gradient-color);
+}
+
+.burger-icon {
+  fill: var(--more-info);
+}
+
+.burger-icon {
+  fill: var(--more-info);
 }
 
 @media (min-device-pixel-ratio: 2),

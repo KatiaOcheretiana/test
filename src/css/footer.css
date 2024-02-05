@@ -10,7 +10,7 @@
 .company-info {
   border-radius: 20px;
 
-  background: var(--white-color);
+  background: var(--bg-card);
   padding: 74px 28px 28px 28px;
   box-sizing: border-box;
 
@@ -22,7 +22,7 @@
   font-size: 30px;
   line-height: 77%;
   letter-spacing: 0.02em;
-  color: var(--black-color);
+  color: var(--footer-name);
   text-align: center;
 
   margin-bottom: 64px;
@@ -40,9 +40,11 @@
   font-size: 16px;
   line-height: 144%;
   letter-spacing: 0.03em;
-  color: var(--light-green);
+  color: var(--footer-company);
 }
-
+.footer-social-list .soc-link svg {
+  fill: var(--footer-company);
+}
 .footer-social-list {
   display: flex;
   flex-direction: row;

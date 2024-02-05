@@ -1,0 +1,66 @@
+.fixed-soc {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .fixed-soc {
+    display: block;
+
+    position: fixed;
+    left: 0;
+    top: 40vh;
+  }
+
+  .fixed-soc-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fix-social-item {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fix-soc-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .facebook-link {
+    border-radius: 0 4px 0 0;
+    background-color: #3a579a;
+  }
+
+  .twitter-link {
+    background-color: #00abf0;
+  }
+
+  .telegram-link {
+    background-color: #24a2e0;
+  }
+
+  .pinterest-link {
+    background-color: #cd1c1f;
+  }
+
+  .reddit-link {
+    background-color: #fc461e;
+  }
+
+  .like-link {
+    background-color: #f95149;
+    border-radius: 0 0 4px 0;
+  }
+
+  .fix-soc-link:hover svg,
+  .fix-soc-link:focus svg {
+    scale: 1.6;
+    transition: var(--transition-change);
+  }
+}
