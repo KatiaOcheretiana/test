@@ -13,6 +13,8 @@
   --transition-change: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   --gradient-color: linear-gradient(90deg, #0dd0ba 0%, #2a86e5 100%);
+
+  --black-color: #111;
 }
 
 .light {
@@ -28,6 +30,8 @@
   --text-content: #707070;
 
   --input-search: #eeeeee;
+
+  --rating-bg: #ebf6f5;
 }
 
 .dark {
@@ -42,4 +46,6 @@
   --text-content: #fff;
 
   --input-search: #183a5d;
+
+  --rating-bg: #183a5d;
 }

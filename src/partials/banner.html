@@ -1,136 +1,153 @@
-<section class="banner-section" >
+<section class="banner-section">
   <div class="container banner-container">
-  <div class="game-info">
-    <ul class="info-list">
-      <li class="info-item"><a href="#">Lorem Ipsum is simply dummy</a></li>
-      <li class="info-item vertical-line"></li>
-      <li class="info-item"> <a href="#">item</a></li>
-      <li class="info-item vertical-line"></li>
-      <li class="info-item"><a href="#">item</a></li>
-      <li class="info-item vertical-line"></li>
-      <li class="info-item"><a href="#">item</a></li>
-      <li class="info-item vertical-line"></li>
-      <li class="info-item"><a href="#">item</a></li>
-    </ul>
-
-    <img
-      class="info-note"
-      srcset="
-        ./images/banner/info-note.jpg,
-        ./images/banner/info-note_2x.jpg 2x
-      "
-      src="./images/banner/info-note.jpg"
-      alt="Info note"
-      width="269"
-      height="35"
-    />
-  </div>
-  <div class="banner">
-    <picture>
-      <source
-        srcset="
-          ./images/banner/banner_img_tab.jpg    1x,
-          ./images/banner/banner_img_tab_2x.jpg 2x
-        "
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="
-          ./images/banner/banner_img_phone.jpg    1x,
-          ./images/banner/banner_img_phone_2x.jpg 2x
-        "
-        media="(min-width: 320px)"
-      />
-      <img
-        class="banner-img"
-        src="./images/banner/banner_img_phone.jpg"
-        alt="Game photo"
-        width="89"
-      />
-    </picture>
-    <div>
-      <h1 class="banner-title">Lorem Ipsum is simply dummy</h1>
-
-      <!-- FOR DESKTOP -->
-
-      <ul class="banner-btn-list">
-        <li>
-          <a href="https://google.com" class="banner-button" target="_blank">
-            <svg class="banner-icon" width="13" height="14" fill="#ffff">
-              <use href="images/icons.svg#icon-android"></use>
-            </svg>
-            Android</a
-          >
-        </li>
-        <li>
-          <a href="https://google.com" class="banner-button" target="_blank">
-            <svg class="banner-icon" width="14" height="14" fill="#ffff">
-              <use href="images/icons.svg#icon-apple"></use>
-            </svg>
-            iOS</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://google.com"
-            class="banner-button-download"
-            target="_blank"
-          >
-            <svg
-              class="banner-icon icon-download"
-              width="16"
-              height="14.7"
-              fill="#ffff"
-            >
-              <use href="images/icons.svg#icon-download"></use>
-            </svg>
-            Download on PC</a
-          >
-        </li>
+    <div class="game-info">
+      <ul class="info-list">
+        <li class="info-item"><a href="#">Lorem Ipsum is simply dummy</a></li>
+        <li class="info-item vertical-line"></li>
+        <li class="info-item"><a href="#">item</a></li>
+        <li class="info-item vertical-line"></li>
+        <li class="info-item"><a href="#">item</a></li>
+        <li class="info-item vertical-line"></li>
+        <li class="info-item"><a href="#">item</a></li>
+        <li class="info-item vertical-line"></li>
+        <li class="info-item"><a href="#">item</a></li>
       </ul>
+    </div>
+    <div class="banner">
+      <picture>
+        <source
+          srcset="
+            ./images/banner/banner_img_tab.jpg    1x,
+            ./images/banner/banner_img_tab_2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ./images/banner/banner_img_phone.jpg    1x,
+            ./images/banner/banner_img_phone_2x.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <img
+          class="banner-img"
+          src="./images/banner/banner_img_phone.jpg"
+          alt="Game photo"
+          width="89"
+        />
+      </picture>
+      <div>
+        <h1 class="banner-title">Lorem Ipsum is simply dummy</h1>
 
-      <div class="users-rating-info"> <img
-              srcset="images/banner/banner-mark.png, images/banner/banner-mark_2x.png 2x"
-              src="images/banner/banner-mark.png"
-              alt="Users rating"
-              width="86"
-              height="85"
-            />
-          <div class="users-info"><h2 class="info-title">Players</h2>
-          <p>12 votes</p>
-        <p>Your rating: <span class="user-mark">5.2</span></p></div>
+        <!-- FOR DESKTOP -->
+
+        <ul class="banner-btn-list">
+          <li>
+            <a href="https://google.com" class="banner-button" target="_blank">
+              <svg class="banner-icon" width="13" height="14" fill="#ffff">
+                <use href="images/icons.svg#icon-android"></use>
+              </svg>
+              Android</a
+            >
+          </li>
+          <li>
+            <a href="https://google.com" class="banner-button" target="_blank">
+              <svg class="banner-icon" width="14" height="14" fill="#ffff">
+                <use href="images/icons.svg#icon-apple"></use>
+              </svg>
+              iOS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://google.com"
+              class="banner-button-download"
+              target="_blank"
+            >
+              <svg
+                class="banner-icon icon-download"
+                width="16"
+                height="14.7"
+                fill="#ffff"
+              >
+                <use href="images/icons.svg#icon-download"></use>
+              </svg>
+              Download on PC</a
+            >
+          </li>
+        </ul>
+
+        <!-- Vidget -->
+        <div class="rating-widget">
+          <div class="users-rating-info">
+            <div class="circle-border">
+              <div class="circle">
+                <p class="progress-number">0</p>
+              </div>
+            </div>
+
+            <div class="users-info">
+              <h2 class="info-title">Players</h2>
+              <p><span class="total-votes">0</span> votes</p>
+              <p>Your rating: <span class="average-rating">0</span></p>
+            </div>
+          </div>
+
+          <div class="rating-mark">
+            <span class="start-rating">Note</span>
+            <span class="mark" data-value="1">1</span>
+            <span class="mark" data-value="2">2</span>
+            <span class="mark" data-value="3">3</span>
+            <span class="mark" data-value="4">4</span>
+            <span class="mark" data-value="5">5</span>
+            <span class="mark" data-value="6">6</span>
+            <span class="mark" data-value="7">7</span>
+            <span class="mark" data-value="8">8</span>
+            <span class="mark" data-value="9">9</span>
+            <span class="mark" data-value="10">10</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-   <!-- Btn menu FOR PHONE/TABLET-->
-   <div class="more-info-menu">
+  <!-- Btn menu FOR PHONE/TABLET-->
+  <div class="more-info-menu">
     <h2>More info</h2>
-    <button  aria-label="Open Menu" type="button" id="openBurger-more-info" class="menu-burger active">
+    <button
+      aria-label="Open Menu"
+      type="button"
+      id="openBurger-more-info"
+      class="menu-burger active"
+    >
       <svg class="burger-icon" width="20" height="16">
         <use href="./images/icons.svg#icon-info-burger"></use>
       </svg></button
-    ><button aria-label="Close Menu" type="button" id="closeBurger-more-info" class="menu-close">
+    ><button
+      aria-label="Close Menu"
+      type="button"
+      id="closeBurger-more-info"
+      class="menu-close"
+    >
       <svg class="burger-icon" width="20" height="18" fill="#707070">
         <use href="./images/icons.svg#icon-close-info"></use>
       </svg>
     </button>
-    </div>
+  </div>
 
-    <!-- Modal view -->
+  <!-- Modal view -->
   <div class="modal-view">
     <div id="overlay-more-info" class="burger-view-menu overlay">
       <div class="overlay-content">
         <ul class="more-info-list">
-          <li class="more-info-item current-link"><a href="#">Lorem Ipsum is simply dummy</a></li>
+          <li class="more-info-item current-link">
+            <a href="#">Lorem Ipsum is simply dummy</a>
+          </li>
           <li class="more-info-item"><a href="#">item</a></li>
           <li class="more-info-item"><a href="#">item</a></li>
           <li class="more-info-item"><a href="#">item</a></li>
           <li class="more-info-item"><a href="#">item</a></li>
         </ul>
-</div>
-</div>
-</div>
-
-
-
+      </div>
+    </div>
+  </div>
 </section>
