@@ -1,20 +1,17 @@
 :root {
   --white-color: #fff;
 
-  --bg-color: #fff;
   --bg-article: #707070;
 
   --light-blue: #2a86e5;
   --dark-blue: #183a5d;
   --light-grey: #757575;
-  --dark-grey: #707070;
+
   --light-green: #0dd0ba;
 
   --transition-change: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   --gradient-color: linear-gradient(90deg, #0dd0ba 0%, #2a86e5 100%);
-
-  --black-color: #111;
 }
 
 .light {
@@ -23,7 +20,7 @@
   --footer-name: #111;
   --bg-menu: #fff;
   --bg-body: #fff;
-  --bg-articles: #edf5f7f7;
+  --bg-articles: #fff;
 
   --more-info: #707070;
 
